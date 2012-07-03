@@ -3,9 +3,13 @@ Requirement
 
 - ZooKeeper 3.4.3+
 - Groovy 1.8.6 (2.0 isn't supported yet)
+- JavaFX 2.0 or Java 7u2+ (for GUI client)
 
 How to play
 -----------
+
+Server
+^^^^^^
 
 - Run ZooKeeper server
 
@@ -16,6 +20,9 @@ How to play
     $ zkServer start
 
   ZooKeeper server will be started on 127.0.0.1:2181.
+
+CUI client
+^^^^^^^^^^
 
 - Invoke zkchat.groovy with proper arguments::
 
@@ -32,5 +39,15 @@ How to play
     /PART
     /JOIN <channel>
 
+GUI client
+^^^^^^^^^^
 
-Let's enjoy ZooKeeper!
+- Invoke fxchat.groovy with proper arguments::
+
+    usage: groovy -cp <JAVAFX_JAR_PATH>:lib/groovyfx-0.2.jar fxchat.groovy
+
+    e.g.
+        $ groovy -cp /Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/jfxrt.jar:lib/groovyfx-0.2.jar fxchat.groovy
+
+
+Let's enjoy ZooKeeper and JavaFX/GroovyFX!
