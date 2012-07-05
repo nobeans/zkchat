@@ -11,9 +11,10 @@ import org.apache.zookeeper.WatchedEvent
 import org.apache.zookeeper.KeeperException
 import org.apache.zookeeper.KeeperException.Code
 
-import groovy.util.logging.Log4j
+@Grab('log4j:log4j:1.2.17')
+import groovy.util.logging.Commons
 
-@Log4j
+@Commons
 class ZooKeeperHelper {
 
     def zk
