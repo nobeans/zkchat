@@ -1,3 +1,7 @@
+@Grab('org.codehaus.groovyfx:groovyfx:0.2')
+@GrabExclude('com.sun.jmx:jmxri')
+@GrabExclude('javax.jms:jms')
+@GrabExclude('com.sun.jdmk:jmxtools')
 import groovyx.javafx.GroovyFX
 import groovyx.javafx.SceneGraphBuilder
 import groovyx.javafx.beans.FXBindable

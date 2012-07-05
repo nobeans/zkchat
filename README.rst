@@ -44,10 +44,10 @@ GUI client
 
 - Invoke fxchat.groovy with proper arguments::
 
-    usage: groovy -cp <JAVAFX_JAR_PATH>:lib/groovyfx-0.2.jar fxchat.groovy
+    usage: groovy -cp <JAVAFX_JAR_PATH> fxchat.groovy
 
     e.g.
-        $ groovy -cp /Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/jfxrt.jar:lib/groovyfx-0.2.jar fxchat.groovy
+        $ groovy -cp /Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/jfxrt.jar fxchat.groovy
 
 
 Let's enjoy ZooKeeper and JavaFX/GroovyFX!
